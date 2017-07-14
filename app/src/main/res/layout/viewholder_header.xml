@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/profile"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewholder_header_height"
+        android:layout_marginLeft="@dimen/viewholder_header_left_margin"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/profile">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Profile Name"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11 July 2017 at 11:31 | London, United Kingdom"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</RelativeLayout>

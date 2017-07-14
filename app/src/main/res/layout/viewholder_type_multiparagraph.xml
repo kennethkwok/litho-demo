@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="8dp">
+
+    <include layout="@layout/viewholder_header" />
+
+    <TextView
+        android:id="@+id/paragraph1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+    />
+
+    <TextView
+        android:id="@+id/paragraph2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+    />
+
+    <TextView
+        android:id="@+id/paragraph3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+    />
+
+    <include layout="@layout/viewholder_footer" />
+</LinearLayout>
